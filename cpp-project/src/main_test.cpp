@@ -15,6 +15,7 @@ void Message(string channel, string msg) {
 
 void Success(bool success) {
     cout << "TECHIO> success " << (success ? "true" : "false") << endl;
+    Message("Hint", "Great job!!!");
 }
 
 
